@@ -20,5 +20,15 @@ while (i < keys.length) {
 
 //* using for---in loop
 for(const keys in shoppingCart){
-    console.log(keys, shoppingCart[keys])
+    // console.log(keys, shoppingCart[keys])
+}
+
+//* for--of
+const arr = [10, 20, 30]
+for(const test of arr){
+    // console.log(test)
+}
+
+for(const test in shoppingCart){
+    console.log(test)
 }
